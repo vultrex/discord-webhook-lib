@@ -10,7 +10,7 @@ import {
 } from "../Typings/EmbedInterface";
 
 export class Embed {
-    public data: EmbedObject = Object.assign({});
+    private data: EmbedObject = Object.assign({});
     constructor() {}
 
     setTitle(title: string, url: string): this {

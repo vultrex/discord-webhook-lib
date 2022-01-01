@@ -19,6 +19,8 @@ export class WebhookClient {
         if (embeds) {
             e = [embeds]
         }
+
+        if (typeof msg !=="string") throw new ReferenceError('msg must be a string')
         await this.request.req({
             method: 'POST',
             endpoint: `/${this.id}/${this.token}`,

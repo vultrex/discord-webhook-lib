@@ -1,0 +1,21 @@
+{
+  "name": "discord-webhook-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.6",
+    "cross-fetch": "^3.1.4",
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}

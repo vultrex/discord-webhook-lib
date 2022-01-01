@@ -14,8 +14,8 @@ export class Embed {
     constructor() {}
 
     setTitle(title: string, url: string): this {
-        if(title) this.data.title = title;
-        if(url) this.data.url = url
+        if (title) this.data.title = title;
+        if (url) this.data.url = url
         return this
     }
 

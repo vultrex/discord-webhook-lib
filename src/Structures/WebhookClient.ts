@@ -1,4 +1,5 @@
 import {Request} from "./Request";
+import {EmbedObject} from "../Typings/EmbedInterface";
 
 export class WebhookClient {
     public id?: string;
@@ -14,7 +15,7 @@ export class WebhookClient {
         this.request = new Request;
     }
 
-    public async send(msg: string, embeds?: any): Promise<any> {
+    public async send(msg: string, embeds?: EmbedObject): Promise<any> {
         let e: any[] = [];
         if (embeds) {
             e = [embeds]

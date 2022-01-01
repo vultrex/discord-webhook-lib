@@ -16,7 +16,9 @@ const w = new WebhookClient({
 const embed = new Embed()
     .setTitle('Cool Embed')
     .setDescription('Very nice')
-    .setFooter('Made by Vultrex Dev') 
+    .setFooter({
+        text: "Made by Vultrex Dev'"
+    }) 
 
 w.send('Hello', embed)
 ```

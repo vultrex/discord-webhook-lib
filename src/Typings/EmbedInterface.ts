@@ -41,8 +41,8 @@ export interface EmbedAuthorStructure {
 
 export interface EmbedFooterStructure {
     text: string,
-    icon_url: string,
-    proxy_icon_url: string,
+    icon_url?: string,
+    proxy_icon_url?: string,
 }
 
 export interface EmbedFeildStructure {

@@ -1,6 +1,6 @@
 {
   "name": "discord-webhook-lib",
-  "version": "1.8.4",
+  "version": "1.8.6",
   "main": "dist/index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
@@ -22,5 +22,21 @@
   },
   "repository": {
     "url": "https://github.com/vultrex/discord-webhook-lib"
-  }
+  },
+  "keywords": [
+    "webhook",
+    "webhooks",
+    "discord",
+    "discord-webhoks",
+    "discordjs",
+    "eris",
+    "library",
+    "webhook-library",
+    "web",
+    "hooks",
+    "vultrexdev",
+    "vultrex",
+    "Vultrex Development",
+    "vultrex development"
+  ]
 }

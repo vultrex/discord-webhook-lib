@@ -1,6 +1,6 @@
 {
   "name": "discord-webhook-lib",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "main": "dist/index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "webhook",
     "webhooks",
     "discord",
-    "discord-webhoks",
+    "discord-webhooks",
     "discordjs",
     "eris",
     "library",

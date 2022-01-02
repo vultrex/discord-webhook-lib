@@ -20,7 +20,7 @@ export class WebhookClient {
         this.request = new Request;
     }
 
-    public async send(msg: string, embeds?: EmbedObject): Promise<any> {
+    public async send(msg: string, embeds?: EmbedObject): Promise<void> {
         let e: any[] = [];
         if (embeds) {
             e = [embeds]

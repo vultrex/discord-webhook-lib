@@ -1,6 +1,6 @@
 {
   "name": "discord-webhook-lib",
-  "version": "1.8.1",
+  "version": "1.8.3",
   "main": "__tests__/index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",

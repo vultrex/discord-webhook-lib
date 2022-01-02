@@ -1,6 +1,6 @@
 {
   "name": "discord-webhook-lib",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "main": "index.js",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
@@ -13,7 +13,6 @@
   "dependencies": {
     "@types/node": "^17.0.6",
     "cross-fetch": "^3.1.4",
-    "discord-webhook-lib": "^1.4.0",
     "node-fetch": "^3.1.0"
   },
   "devDependencies": {

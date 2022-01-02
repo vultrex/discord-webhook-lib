@@ -37,3 +37,9 @@ webhookclient.send('Super cool message', embed)
 ```javascript
 webhookclient.send('Hello')
 ```
+
+## Install
+```
+npm i discord-webhook-lib
+yarn add discord-webhook-lib
+```

@@ -2,12 +2,17 @@ import {Request} from "./Request";
 import {EmbedObject} from "../Typings/EmbedInterface";
 
 export class WebhookClient {
-    public id?: string;
-    public token?: string;
+    public id: string;
+    public token: string;
     public username?: string | null;
     public avatar_url?: string | null;
     private request: Request
-    constructor(ops: any) {
+    constructor(ops = {
+        id: null as unknown as string,
+        token: null as unknown as string,
+        username: null as unknown as string | null,
+        avatar_url: null as unknown as string
+    }) {
         this.id = ops.id;
         this.token = ops.token;
         this.username = ops.username;
